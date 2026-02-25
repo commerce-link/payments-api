@@ -1,4 +1,4 @@
 package pl.commercelink.payments.api;
 
-public record PaymentShippingItem(String name, int amountCents, String currency, int minDeliveryDays, int maxDeliveryDays) {
+public record PaymentShippingItem(String name, int amount, int minDeliveryDays, int maxDeliveryDays) {
 }
